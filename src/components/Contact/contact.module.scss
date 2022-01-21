@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    height: 700px;
+
+    .content {
+        margin: 8rem auto 0 8rem;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        form {
+            margin-top: 2rem;
+        }
+
+        input {
+            width: 350px;
+            border: none;
+            border-bottom: 1px solid #333;
+            padding: 1rem 0 0 0;
+            margin-right: 1rem;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        textarea {
+            width: 350px;
+            border: none;
+            border-bottom: 1px solid #333;
+            padding: 1rem 0 0 0;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .submit {
+            border: none;
+            background-color: black;
+            width: 150px;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: purple;
+            }
+        }
+    }
+}

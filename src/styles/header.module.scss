@@ -1,0 +1,32 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap);
+ */
+.header {
+    box-sizing: border-box;
+    width: 100vw;
+/*     background-color: red;
+ */    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem 0;
+
+    Link {
+        text-decoration: none;
+    }
+
+    .links {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+
+    
+        a {
+            text-decoration: none;
+            color: darkcyan;
+        }
+    
+
+/*         &:hover {
+            transform: translateY(-10px);
+            transition: transform 1s linear;
+        }
+ */    }
+}

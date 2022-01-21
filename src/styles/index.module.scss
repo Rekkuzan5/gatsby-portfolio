@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap);
+
+$font-stack: Poppins, sans-serrif;
+$font-stack2: Outfit, sans-serrif;
+$primary-color: purple;
+$secondary-color: #333;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-stack;
+}
