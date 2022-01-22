@@ -1,5 +1,4 @@
 import * as React from "react"
-import Header from "../components/header.component"
 import Hero from '../components/Hero/hero.component'
 import About from "../components/About/about.component"
 import FeaturedWorks from "../components/Featured-Works/featured-works.component"
@@ -11,8 +10,8 @@ import '../styles/index.module.scss'
 const IndexPage = () => {
   return (
     <main>
-      <Header />
-      <Hero />
+{/*       <Header />
+ */}      <Hero />
       <About />
       <FeaturedWorks />
       <Contact />

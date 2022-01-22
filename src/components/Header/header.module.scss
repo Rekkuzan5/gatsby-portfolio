@@ -2,11 +2,14 @@
  */
 .header {
     box-sizing: border-box;
-    width: 100vw;
-/*     background-color: red;
+/*     width: 100vw;
+ *//*     background-color: red;
  */    display: flex;
     justify-content: space-between;
-    padding: 2rem 5rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 6rem;
+    padding-top: 2rem;
 
     Link {
         text-decoration: none;
@@ -16,11 +19,20 @@
         width: 150px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
     
         a {
             text-decoration: none;
-            color: darkcyan;
+        }
+
+        svg {
+            width: 3rem;
+
+
+            &:hover {
+                fill: darkcyan;
+            }
         }
     
 
