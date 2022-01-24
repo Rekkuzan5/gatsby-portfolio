@@ -35,16 +35,19 @@
         }
 
         .submit {
-            border: none;
-            background-color: black;
+            border: 2px solid black;
+            background-color: #fff;
             width: 150px;
-            color: #fff;
+            color: black;
             padding: 1rem;
             border-radius: 4px;
             cursor: pointer;
+            transition: all ease 0.8s;
+            box-shadow: inset 0 0 0 0.1px #fff;
 
             &:hover {
-                background-color: purple;
+                box-shadow: inset 200px 0 0 0 black;
+                color: #fff;
             }
         }
     }
