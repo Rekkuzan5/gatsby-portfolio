@@ -9,8 +9,8 @@ const FeaturedWorks = () => (
                 <div className={grid_item}>
                     <div className={picture}></div>
                     <div className={info}>
-                        <h3>Project One</h3> 
-                        <p>Link</p>
+                        <h3>Crown Clothing</h3> 
+                        <a href='*'>Source Code</a>
                     </div> 
                 </div>
                 
@@ -18,7 +18,7 @@ const FeaturedWorks = () => (
                 <div className={picture}></div>
                     <div className={info}>
                         <h3>Project Two</h3> 
-                        <p>Link</p>
+                        <a href='*'>Source Code</a>
                     </div> 
                 </div>
             </div>
