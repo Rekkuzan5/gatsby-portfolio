@@ -11,7 +11,7 @@ const Hero = () => (
         <div className={slash}>
             <div className={container}>
                 <div className={content}>
-                    <h1>Greetings!</h1>
+                    <h1>Hello!</h1>
                     <h2>Welcome to my web development portfolio.</h2>
                     <button>Get in touch</button>
                 </div>

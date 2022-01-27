@@ -10,7 +10,7 @@ const FeaturedWorks = () => (
                     <div className={picture}></div>
                     <div className={info}>
                         <h3>Crown Clothing</h3> 
-                        <a href='*'>Source Code</a>
+                        <a href='https://github.com/Rekkuzan5/crwn-clothing' target="_blank">Source Code</a>
                     </div> 
                 </div>
                 
