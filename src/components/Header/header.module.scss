@@ -1,48 +1,67 @@
 /* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap);
  */
-.header {
-    box-sizing: border-box;
-/*     width: 100vw;
- *//*     background-color: red;
- */    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 6rem;
-    padding-top: 2rem;
 
-    Link {
-        text-decoration: none;
+$main-background: black;
+
+.header {
+  box-sizing: border-box;
+  /*     width: 100vw;
+ */ /*     background-color: red;
+ */
+  display: flex;
+  justify-content: space-between;
+  //max-width: 1600px;
+  margin: 0 auto;
+  height: 6rem;
+  padding: 2rem 2rem 0;
+  position: sticky;
+  top: 0;
+
+  .links {
+    width: 600px;
+    font-size: .9rem;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
     }
 
-    .links {
-        width: 150px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    a {
+      color: rgba(221, 234, 255, 0.6);
 
-    
-        a {
-            text-decoration: none;
-        }
+      &:hover {
+        color: rgba(221, 234, 255, 0.95);
+        cursor: pointer;
+      }
 
-        svg {
-            width: 3rem;
-            transition: transform .2s linear;
-            fill: #333;
+      &:active {
+        color: rgb(0, 255, 200);
+      }
 
+      .accentColor {
+        padding-right: .6rem;
+        color: rgb(0, 255, 200);
+      }
+    }
 
-            &:hover {
-                fill: darkcyan;
-                transform: translateY(-1px);
-                transition: transform .1s linear;
-            }
-        }
-    
+    svg {
+      width: 3rem;
+      transition: transform 0.2s linear;
+      fill: #333;
 
-/*         &:hover {
+      &:hover {
+        fill: darkcyan;
+        transform: translateY(-1px);
+        transition: transform 0.1s linear;
+      }
+    }
+
+    /*         &:hover {
             transform: translateY(-10px);
             transition: transform 1s linear;
         }
- */    }
+ */
+  }
 }

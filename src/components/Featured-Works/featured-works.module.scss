@@ -1,57 +1,79 @@
 .container {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  width: 100vw;
+
+  .slimContainer {
+    height: 100%;
     display: flex;
-    height: 100vh;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: center;
 
     .content {
-        width: 100%;
-    }
+      width: 100%;
 
-    h1 {
+      h1 {
         font-size: 4rem;
         padding-bottom: 1rem;
-    }
+        color: rgba(221, 234, 255, 0.95);
+      }
 
-    .grid {
+      .grid {
         display: grid;
         width: 100%;
         justify-content: center;
         gap: 30px;
         grid-template-columns: 1fr 1fr;
-    }
+      }
 
-    .grid_item {
+      .grid_item {
         height: 300px;
-/*         border: 1px solid #333;
- */    }
+        /*         border: 1px solid #333;
+        */
 
-    .picture {
-        height: 90%;
-        border: 1px solid #333;
-    }
+        .pictureFrame {
+          height: inherit;
+          border: 1px solid rgba(221, 234, 255, 0.6);;
+          overflow: hidden;
 
-    .info {
-        display: flex;
-        justify-content: space-between;
+          .workPicture {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
 
-        h3 {
-            font-weight: 300;
-            font-size: 1.2rem;
+            &:hover {
+              cursor: pointer;
+              transform: scale(1.1);
+              transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+            }
+          }
         }
 
-        a {
+        .info {
+          display: flex;
+          justify-content: space-between;
+
+          h3 {
+            font-weight: 300;
+            font-size: 1.2rem;
+            color: rgba(221, 234, 255, 0.95);
+          }
+
+          a {
             text-decoration: none;
-            color: black;
+            color: rgb(0, 255, 200);       
             font-weight: 300;
             font-size: 1.2rem;
 
             &:hover {
-                color: darkcyan;
+              color: darkcyan;
             }
+          }
         }
+      }
     }
-
-    
+  }
 }
