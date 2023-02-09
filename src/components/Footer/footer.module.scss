@@ -1,23 +1,23 @@
+$text-accent: rgb(0, 255, 200);
+
 .footer {
     display: flex;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 5rem;
-    color: #333;
+    color: rgba(221, 234, 255, 0.6);
 /*     margin-top: 3rem;
  */    
 
     .footerContainer {
         display: flex;
         width: 100%;
-        color: #333;
         justify-content: space-between;
 
         p {
             display: inline-block;
-            
-           
+            color: rgba(221, 234, 255, 0.6);
         }
 
         .links {
@@ -28,10 +28,10 @@
         
             a {
                 text-decoration: none;
-                color: darkcyan;
+                color: rgba(221, 234, 255, 0.9);
 
                 &:hover {
-                    color: black;
+                    color: $text-accent;
                 }
             }
         }
