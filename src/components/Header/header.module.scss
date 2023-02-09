@@ -6,15 +6,16 @@ $main-background: black;
 .header {
   box-sizing: border-box;
   /*     width: 100vw;
- */ /*     background-color: red;
- */
+ */background-color: $main-background;
   display: flex;
   justify-content: space-between;
-  //max-width: 1600px;
+  align-items: center;
+  z-index: 11;
+  width: 100%;
   margin: 0 auto;
-  height: 6rem;
-  padding: 2rem 2rem 0;
-  position: sticky;
+  height: 100px;
+  padding: 0 50px;
+  position: fixed;
   top: 0;
 
   .links {

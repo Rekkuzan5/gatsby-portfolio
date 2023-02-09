@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../Button/button.jsx";
 import  { container, content, submit } from './contact.module.scss';
 
 const Contact = () => {
@@ -60,7 +61,8 @@ const Contact = () => {
                     </label>
                     <br />
                     <br />
-                    <input className={submit} type="submit" value="Submit" />
+                    {/* <input className={submit} type="submit" value="Submit" /> */}
+                    <Button type="submit" text="Submit" />
                 </form>
             </div>
         </div>

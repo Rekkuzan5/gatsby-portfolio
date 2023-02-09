@@ -10,8 +10,7 @@ import * as styles from "../styles/index.module.scss";
 
 const IndexPage = () => {
   return (
-    <main className={styles.main}>
-      
+    <div className={styles.root}>
       <Header />
       <div className={styles.vertical}>
         <a>stapp.cameron@gmail.com</a>
@@ -19,12 +18,14 @@ const IndexPage = () => {
 
         </div>
       </div>
-      <Hero />
-      <About />
-      <FeaturedWorks />
-      <Contact />
-      <Footer />
-    </main>
+      <main className={styles.styledMain}>
+        <Hero />
+        <About />
+        <FeaturedWorks />
+        <Contact />
+        <Footer />
+      </main>
+    </div>
   );
 };
 

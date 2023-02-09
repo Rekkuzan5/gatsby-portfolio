@@ -16,15 +16,25 @@ $text-accent: rgb(0, 255, 200);
   color: $main-background;
 }
 
-.main {
-  height: 100%;
+.root {
   background-color: $secondary-color;
+}
+
+.styledMain {
+  // height: 100%;
+  // background-color: $secondary-color;
+  margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding: 0 150px;
+}
 
   .vertical {
     position: fixed;
     right: 40px;
     bottom: 0px;
-    z-index: 10;
+    z-index: 11;
 
     a {
       writing-mode: vertical-rl;
@@ -33,10 +43,14 @@ $text-accent: rgb(0, 255, 200);
       ///transform: rotate(90deg);
       color: rgba(221, 234, 255, 0.6);
       bottom: 0;
+      letter-spacing: 1px;
+      transition: transform .5s;
 
       &:hover {
         color: $text-accent;
         cursor: pointer;
+        transform: translateY(-10px);
+
       }
     }
 
@@ -46,5 +60,5 @@ $text-accent: rgb(0, 255, 200);
       height: 150px;
       background-color: rgba(221, 234, 255, 0.6);
     }
-  }
+
 }

@@ -8,9 +8,9 @@ import {} from "gatsby";
 const Hero = () => {
   const buttonText = "Get in touch with me";
   return (
-    <div>
+    <section>
       {/* <Header /> */}
-      <div className={styles.slash}>
+      {/* <div className={styles.slash}> */}
         <div className={styles.container}>
           <div className={styles.content}>
             <p className={styles.accentText}>Hi, my name is</p>
@@ -26,8 +26,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      {/* </div> */}
+    </section>
   );
 };
 
