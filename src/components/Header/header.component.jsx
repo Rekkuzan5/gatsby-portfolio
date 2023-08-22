@@ -15,22 +15,18 @@ const Header = () => {
       <div className={styles.links}>
         <ul>
           <li>
-            <a>
+            <a href="#about">
               <span className={styles.accentColor}>01.</span>About
             </a>
           </li>
           <li>
-            <a>
+            <a href="#work">
               <span className={styles.accentColor}>02.</span>Work
             </a>
           </li>
+          {/* Need to add dark mode toggle here */}
           <li>
-            <a>
-              <span className={styles.accentColor}>03.</span>Experience
-            </a>
-          </li>
-          <li>
-            <a>
+            <a href="#contact">
               <span className={styles.accentColor}>04.</span>Contact
             </a>
           </li>

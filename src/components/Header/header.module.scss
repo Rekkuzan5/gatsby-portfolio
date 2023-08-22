@@ -31,6 +31,8 @@ $main-background: black;
 
     a {
       color: rgba(221, 234, 255, 0.6);
+      text-decoration: none;
+      scroll-snap-align: start;
 
       &:hover {
         color: rgba(221, 234, 255, 0.95);

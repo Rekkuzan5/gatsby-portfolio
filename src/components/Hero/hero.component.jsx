@@ -8,20 +8,20 @@ import {} from "gatsby";
 const Hero = () => {
   const buttonText = "Get in touch with me";
   return (
-    <section>
+    <section id="home">
       {/* <Header /> */}
       {/* <div className={styles.slash}> */}
         {/* <div className={styles.container}> */}
           <div className={styles.content}>
-            <p className={styles.accentText}>Hi, my name is</p>
-            <h1 className={styles.nameText}>Cameron Stapp</h1>
-            <h1 className={styles.nameSubtitle}>This can be a placeholder</h1>
+            <p className={styles.accentText}>Hi, I'm</p>
+            <h1 className={styles.nameText}>Cameron<span className={styles.accentText}>,</span></h1>
+            <h1 className={styles.nameSubtitle}>A Software Engineer</h1>
             <p>
-              I’m a software engineer focused on building simple, beautiful websites, and creating an exceptional user experience.  I'm currently 
+              focused on building simple, beautiful websites, and creating an exceptional user experience.  I'm currently 
               building accessible, customer oriented solutions at <a href="https://www.invosolutions.com/"><span className={styles.accentText}>Invo Solutions.</span></a>
             </p>
             <div className={styles.button}>
-              <Button text={buttonText}></Button>
+             <a href="#contact"><Button text={buttonText}></Button></a>
             </div>
           </div>
         {/* </div> */}

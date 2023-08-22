@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./about.module.scss";
 
 const About = () => (
-  <div className={styles.container}>
+  <div className={styles.container} id="about">
     <div className={styles.content}>
       <div className={styles.about}>
         <h1>About me.</h1>

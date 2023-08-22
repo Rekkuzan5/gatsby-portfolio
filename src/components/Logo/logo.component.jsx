@@ -3,8 +3,10 @@ import { logo } from './logo.module.scss'
 
 const Logo = () => (
     <div className={logo}>
-        <h3>Cameron Stapp</h3>
-        <p>Fullstack Developer</p>
+        <a href="#home">
+            <h3>Cameron Stapp</h3>
+            <p>Fullstack Developer</p>
+        </a>
     </div>
 )
 

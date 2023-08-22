@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./featured-works.module.scss";
 
 const FeaturedWorks = () => (
-  <div className={styles.container}>
+  <div className={styles.container} id="work">
     <div className={styles.slimContainer}>
       <div className={styles.content}>
         <h1>Featured Works.</h1>

@@ -16,6 +16,18 @@ $text-accent: rgb(0, 255, 200);
   color: $main-background;
 }
 
+html {
+  scroll-behavior: smooth;
+
+  a {
+    text-decoration: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .root {
   background-color: $secondary-color;
 }
@@ -38,7 +50,7 @@ $text-accent: rgb(0, 255, 200);
 
     a {
       writing-mode: vertical-rl;
-
+      text-decoration: none;
       //position: absolute;
       ///transform: rotate(90deg);
       color: rgba(221, 234, 255, 0.6);
