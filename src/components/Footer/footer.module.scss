@@ -14,6 +14,7 @@ $text-accent: rgb(0, 255, 200);
         display: flex;
         width: 100%;
         justify-content: space-between;
+        font-size: var(--fz-md);
 
         p {
             display: inline-block;

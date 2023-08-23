@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap);
+
+:root {
+  --font-stack: Poppins, sans-serrif;
+  --font-stack2: Outfit, sans-serrif;
+  --font-stack3: Outfit, sans-serrif;
+  --primary-color: purple;
+  --secondary-color: black;
+  --main-background: #0a192f;
+  --green: rgb(0, 255, 200);
+  --gray: rgba(221, 234, 255, 0.6);
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-heading: 32px;
+}

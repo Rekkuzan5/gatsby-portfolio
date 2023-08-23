@@ -7,6 +7,7 @@ import Footer from "../components/Footer/footer.component";
 import Header from "../components/Header/header.component";
 
 import * as styles from "../styles/index.module.scss";
+import '../styles/variables.scss';
 
 const IndexPage = () => {
   return (
@@ -14,7 +15,7 @@ const IndexPage = () => {
     <div className={styles.root}>
       <Header />
       <div className={styles.vertical}>
-        <a href="#contact">Let's work on something</a><div className={styles.line}>
+        <a href="#contact">Connect with me!</a><div className={styles.line}>
       </div>
       </div>
       <main className={styles.styledMain}>
