@@ -22,7 +22,7 @@ const About = () => (
             <li>Vue</li>
             <li>Laravel</li>
             <li>React</li>
-            <li>C#</li>
+            <li>.NET/C#</li>
             <li>Node.js</li>
           </ul>
         </div>

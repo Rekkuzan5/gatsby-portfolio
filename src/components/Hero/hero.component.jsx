@@ -18,7 +18,7 @@ const Hero = () => {
             <h2 className={styles.nameText}>Cameron.</h2>
             <h3 className={styles.nameSubtitle}>I craft web experiences.</h3>
             <p>
-              I'm a software engineer that creates tailored digital solutions and an exceptional digital experience.  I'm currently 
+              I'm a software engineer that creates tailored digital solutions and exceptional digital experiences.  I'm currently 
               building accessible, customer oriented solutions at <a href="https://www.invosolutions.com/"><span className={styles.accentText}>Invo Solutions.</span></a>
             </p>
             <div className={styles.button}>
