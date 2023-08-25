@@ -1,13 +1,28 @@
 import React from "react";
 import Logo from "../Logo/logo.component";
-import Button from "../Button/button";
+//import Button from "../Button/button";
 // import github from '../../images/github-icon.svg'
 
 import * as styles from "./header.module.scss";
 // import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
-  const buttonText = "Resume";
+  //const buttonText = "Resume";
+  // Function will execute on click of button
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Resume.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Cameron_Stapp_Resume.pdf';
+            alink.click();
+        })
+    })
+}
   return (
     <div className={styles.header}>
       <Logo />
@@ -30,7 +45,7 @@ const Header = () => {
               <span className={styles.accentColor}>04.</span>Contact
             </a>
           </li>
-          <Button text={buttonText}></Button>
+          <button onClick={onButtonClick}>Resume</button>
         </ul>
       </div>
     </div>
